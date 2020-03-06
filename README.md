@@ -8,6 +8,7 @@
   * universal Turing machine
 * code
 * example
+
 ![](https://github.com/nickmmark/emergent-behavior/blob/master/Langtons_Ant/langton_ant_animated.gif)
 
 
