@@ -25,6 +25,7 @@
   * three types: *static*, *oscillators*, *spaceships*
   * complex emergent behaviors: *replicators*
   * this is an example of Gosper's glider gun; a cellular automaton pattern with a main part that repeats periodically, like an oscillator, and that also periodically emits spaceships.
+  
   ![](https://upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif)
 
 
