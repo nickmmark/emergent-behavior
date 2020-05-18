@@ -1,5 +1,7 @@
 # emergent-behavior
 
+a collection of some of my favorite examples of emergent behavior in simple deterministic systems
+
 ### langton's ant
 * rules
   * 1. At a white square, turn 90° right, flip the color of the square, move forward one unit
