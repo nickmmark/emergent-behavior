@@ -9,7 +9,7 @@ a collection of some of my favorite examples of emergent behavior in simple dete
 * math
   * universal Turing machine
 * code
-``` R
+``` processing
 final int STEP=25;   // number of steps per frame; smaller value is slower
 int x;                // x coordinate
 int y;                // y coordinate
@@ -92,7 +92,7 @@ void setBool(int x, int y, boolean white) {
 * math
   * Turing machine
 * code
-``` R
+``` processing
 // Size of cells
 int cellSize = 5;
 
