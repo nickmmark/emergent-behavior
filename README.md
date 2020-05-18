@@ -92,7 +92,7 @@ void setBool(int x, int y, boolean white) {
 * math
   * Turing machine
 * code
-```
+``` R
 // Size of cells
 int cellSize = 5;
 
