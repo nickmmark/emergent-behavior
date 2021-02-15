@@ -1,13 +1,17 @@
 # emergent-behavior
-
-a collection of some of my favorite examples of emergent behavior in simple deterministic systems
+* emergence is a behavior seen in a system that does not depend on its individual parts, but on their relationships to one another (e.g. the sum is greater than the parts).
+* there are countless examples of emergence in complex systems but it can also be seen in simple systems.
+* this is a a collection of some of my favorite examples of emergent behavior in very simple deterministic systems
 
 ### langton's ant
+* 
 * rules
   * 1. At a white square, turn 90° right, flip the color of the square, move forward one unit
   * 2. At a black square, turn 90° left, flip the color of the square, move forward one unit
 * math
   * universal Turing machine
+* based upon
+
 * code
 ``` processing
 final int STEP=25;   // number of steps per frame; smaller value is slower
@@ -77,11 +81,16 @@ void setBool(int x, int y, boolean white) {
   set(x,y,white?#ffffff:#000000);
 }
 ```
-* behavior
-   * after about 1000 turns the ant always builds a highway
+* emergent behavior
+   * after about 1000 turns the ant always builds a "highway" (linear structure, repeating to infininty)
 * example
 
 ![](https://github.com/nickmmark/emergent-behavior/blob/master/Langtons_Ant/langton_ant_animated.gif)
+
+* many other adaptations exist that explore other permutations, all are Turning machine compatible programs (e.g. universally computable) called Turmites (Turning machine termites)
+   * multiple colors
+   * other grids: triangle or hexagonal tiles
+   * dimensions: 2d or 3d
 
 
 ### conway's game of life
